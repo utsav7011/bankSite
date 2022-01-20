@@ -1,0 +1,380 @@
+body{
+    /* font-family: 'Fredoka One', cursive; */
+    font-family: 'Sniglet', cursive;
+    margin: 0;
+}
+
+.login{
+    background-color: #000;
+    padding-top: 10px;
+    padding-bottom:10px ;
+}
+
+.buttonLogin{
+    background-color: #085467;
+    display:block;
+    font-weight: bold;
+    border: none;
+    padding-left:100px ;
+    padding-right:100px ;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.buttonLogin a:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+.buttonLogin a:visited {
+    text-decoration: none;
+  }
+  
+.buttonLogin a:hover {
+    text-decoration: underline;
+    color:white;
+  }
+
+
+.buttonLogin:hover{
+    background-color: #F4C0B3;
+    color: black;
+
+}
+.container{
+    margin-top: 10px;
+    display: block;
+
+    align-items: center;
+}
+
+.desCards{
+    
+    margin:55px ;
+    text-align: center;
+    margin-left:auto ;
+    margin-right: auto;
+}
+
+.desCardsLog{
+    margin-top:55px ;
+    text-align: center;
+    margin-left:auto ;
+    margin-right: auto;
+}
+.desCardsLog h5{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+    
+    padding-top: 5px;
+    padding-bottom: 50px;
+    padding-right: 10px;
+    padding-left: 10px
+}
+
+.footerHeader{
+    text-align: center;
+}
+
+.footer a{
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-left: 75px;
+}   
+
+.footer table{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    width: 100%;
+
+}
+
+.footer table tr{
+    padding-top: 10px;
+}
+
+
+.h1Login{
+    display: block;
+    padding-top: 50px;
+}
+
+
+/* login form :  */
+
+
+.loginFeild,textarea{
+    background-color: lightgoldenrodyellow;
+    border: none;
+    border-bottom: 2px dashed green ;
+    font-size: 15px;
+    margin-left:20px ;
+}
+
+
+.loginFeild:focus, textarea:focus{
+    outline: none;
+    box-shadow: 1px 1px 2px 2px yellow;
+}
+
+
+.formsLogin{
+    border: white 2px double;
+    display: block;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loginForm{
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+}
+
+
+.btnLogin{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+/* new users :  */
+.newUserTAg{
+    display: flex;
+    font-size: 25px;
+    margin-left:auto;
+    margin-right: auto;
+    padding-left: auto;
+    justify-content: center;
+    animation-name: position;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    padding: 10px;
+}
+
+@keyframes position{
+    0% {
+        background-color: skyblue;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background-color: red;
+        left: 50px;
+        top: 0pt;
+    }
+    50%{
+        background-color: olive;
+        left: 100px;
+        top: 0px;
+    }
+    75%{
+        background-color: yellow;
+        left: 100px;
+        top: 0px;
+    }
+    100%{
+        background-color: springgreen;
+        left: 150px;
+        top: 0px;
+    }
+}
+
+
+
+.newUserTAg a:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+.newUserTAg a:visited {
+    text-decoration: none;
+  }
+  
+.newUserTAg a:hover {
+    text-decoration: underline;
+    color:white;
+  }
+
+
+
+  /* signUp Head :  */
+  
+
+  .btnSignUp{
+    background-color: yellow;
+    padding: 5px;
+    color: red;
+  }
+  
+  .btnSignUp a:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+.btnSignUp a:visited {
+    text-decoration: none;
+  }
+  
+.btnSignUp a:hover {
+    text-decoration: underline;
+    color:black;
+  }
+
+
+  /* coorporate login :  */
+
+  .cLogin{
+      padding-top:100px ;
+      padding-left: 500px;
+      padding-right: 500px;
+    display: flex;
+  }
+
+  .cImgText{
+      color: white;
+      margin: 100px;
+      margin-top: 200px;
+      text-align: center;
+      justify-content: center;
+  }
+  .cImg{
+      background-image: url(https://media.istockphoto.com/vectors/abstract-neon-blue-tech-circuit-board-lines-background-vector-id1176592671?k=20&m=1176592671&s=612x612&w=0&h=r2w8Co9UoCwWD-ACgQDcRKMiFRd4AMScHfNYmU94hrk=);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+.cformLogin{
+    
+    padding: 100px;
+}
+
+
+.cLoginForm input{
+    border: none;
+    border-bottom: 2px double firebrick;
+}
+
+.cLoginBu{
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 100px;
+}
+
+.cnewLogIn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    animation-name: position;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-direction: alternate;
+
+
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+@keyframes position{
+    0% {
+        color: black;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        color: red;
+        left: 50px;
+        top: 0pt;
+    }
+    50%{
+        color: olive;
+        left: 100px;
+        top: 0px;
+    }
+    75%{
+        color: darkviolet;
+        left: 100px;
+        top: 0px;
+    }
+    100%{
+        color: springgreen;
+        left: 150px;
+        top: 0px;
+    }
+}
+
+
+/* mobile bnaking : */
+.mBankHeading{
+    display: block;
+    text-align: center;
+}
+
+#sectionText{
+    padding: 10px;
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-size: 25px; 
+}
+
+.cardspay{
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    background-color: #202020;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.btn1Cards{
+    margin-right: 50px;
+}
+.tACards {
+    size: 2px;
+    padding-right: 10px;
+}
+
+.desCardsC{
+    margin:20px ;
+    text-align: center;
+    margin-left:auto ;
+    margin-right: auto;
+}   
+
+/* under Maintainence */
+.uM img{
+    display: block;
+    
+    padding: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
